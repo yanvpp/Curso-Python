@@ -1,0 +1,19 @@
+Para automações, utilizamos a biblioteca pyautogui
+Para controle de delay, utilizamos a biblioteca time
+
+#pyautogui.click -> clicar em algum lugar da tela
+#pyautogui.press -> apertar 1 tecla
+#pyautogui.write -> escrever um texto
+#pyautogui.hotkey -> apertar uma combinação de teclas
+#pyautogui.PAUSE = 0.5 -> para programar delay em segundos, mas o delay é entre todos os comandos
+#time.sleep() -> adicionar delay apenas no momento declarado
+# print (pyautogui.position()) -> para descobrir a posição do mouse
+
+# Passo 1: Entrar no sistema da empresa
+    # abrir o chrome
+        # pyautogui.press("win")
+        # pyautogui.write("chrome")
+        # pyautogui.press("enter")
+    # digitar o site
+
+# Passo 2: Fazer login
