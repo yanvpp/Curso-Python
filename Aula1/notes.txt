@@ -1,19 +1,23 @@
-Para automações, utilizamos a biblioteca pyautogui
+Para automações, utilizamos a biblioteca pyautogui ("pip install pyautogui")
 Para controle de delay, utilizamos a biblioteca time
+Para comandos com arquivo csv, utilizamos a biblioteca pandas ("pip install pandas")
 
-#pyautogui.click -> clicar em algum lugar da tela
-#pyautogui.press -> apertar 1 tecla
-#pyautogui.write -> escrever um texto
-#pyautogui.hotkey -> apertar uma combinação de teclas
-#pyautogui.PAUSE = 0.5 -> para programar delay em segundos, mas o delay é entre todos os comandos
-#time.sleep() -> adicionar delay apenas no momento declarado
+# pyautogui.click -> clicar em algum lugar da tela
+# pyautogui.press -> apertar 1 tecla
+# pyautogui.write -> escrever um texto
+# pyautogui.hotkey -> apertar uma combinação de teclas
+# pyautogui.scroll(2) -> para scrollar a tela, número positivo = scroll para cima, negativo para baixo
+# pyautogui.PAUSE = 0.5 -> para programar delay em segundos, mas o delay é entre todos os comandos
+# time.sleep() -> adicionar delay apenas no momento declarado
 # print (pyautogui.position()) -> para descobrir a posição do mouse
+# pandas.read_csv("nome_do_arquivo.csv") # no lugar do csv, podemos utilizar inúmeros tipos de arquivo.
+    # além de que o arquivo tem que estar na mesma pasta que o executável, ou informamos o caminho
 
-# Passo 1: Entrar no sistema da empresa
-    # abrir o chrome
-        # pyautogui.press("win")
-        # pyautogui.write("chrome")
-        # pyautogui.press("enter")
-    # digitar o site
+os sistemas costumam exportar bases de dados em csv
+mas, como podemos exportar um csv para o python? importando biblioteca que faça isso! e seu nome é pandas!
 
-# Passo 2: Fazer login
+comando "for":
+for linha in tabela.index: #para cada linha da minha tabela, faça
+
+comando if:
+if condicao:
