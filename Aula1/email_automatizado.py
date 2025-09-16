@@ -20,11 +20,11 @@ pyautogui.press("enter")
 time.sleep(10)
 pyautogui.click(x=142, y=215)
 time.sleep(5)
-pyautogui.write("Pai")
+pyautogui.write("destinatário") # altere com o endereço de email do destinatário
 pyautogui.press("enter")
 pyautogui.press("tab")
-pyautogui.write("teste automatizado")
+pyautogui.write("assunto") # altere com o assunto do email
 pyautogui.press("tab")
-pyautogui.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
+pyautogui.write("mensagem") # adicione o corpo da mensagem
 time.sleep(7)
 pyautogui.click(x=1302, y=1010)
